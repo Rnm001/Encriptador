@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <img id="imagealura" src="./imagenes/Vector.png">
+        <h1 id=titulo> Encriptador Alura</h1>
+    </header>
+    <main>
+    <section>
+        <textarea type="text" placeholder=" Ingrese su texto a encriptar" class="input-text" cols="40" rows="6"></textarea>
+        <img id="Advertencia" src="./imagenes/Advertencia.png">
+        <h6 id="text_indica"> Solo letras minusculas y sin acentos</h6>
+    </section>
+    <div>
+        <button type="button" id="boton1" onclick="btnencriptar()"> Encriptar </button>
+        <button type="button" id="boton2" onclick="btndesencriptar()"> Desencriptar </button>
+        <button type="button" id="boton3" onclick="btncopiar1();"> Copiar </button>
+    </div>
+
+    <section>
+        <textarea type="text" class="input-text-area" id="textocopiar" cols="40" rows="6" ></textarea>
+        
+    </section>
+
+    
+        <img id="muneco" src="./imagenes/muneco.png"> 
+        <img id="frame5" src="./imagenes/frame5.png"> 
+    
+
+</main>
+</body>
+<script src="script.js"></script>
+<script src="copiar.js"></script>
+</html>
